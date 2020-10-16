@@ -2,3 +2,6 @@
 Library/Artifacts
 Temp
 Library/PackageCache
+Library/ScriptAssemblies/
+Library/ShaderCache
+
