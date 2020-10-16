@@ -392,7 +392,9 @@ MonoBehaviour:
   Jumpforce: 10
   OnGround: 0
   CircleRadius: 0.5
-  GroundLayer: 8
+  GroundLayer:
+    serializedVersion: 2
+    m_Bits: 256
 --- !u!1 &963194225
 GameObject:
   m_ObjectHideFlags: 0
