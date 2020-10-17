@@ -55,9 +55,8 @@ public class PlayerMove : MonoBehaviour
     public void Jump()
 	{
         RB.velocity = new Vector2(RB.velocity.y, 0);
-        RB.velocity += Vector2.up * Jumpforce; 
+        RB.velocity += (Vector2.up * Jumpforce); 
         OnGround = false;
-
     }
 
 	private void OnDrawGizmos()
